@@ -9,7 +9,7 @@ load_dotenv()
 
 # ===== НАСТРОЙКИ ИЗ .env =====
 TOKEN = os.getenv("BOT_TOKEN")
-YOUR_TELEGRAM_ID = int(os.getenv("YOUR_TELEGRAM_ID", "480145722"))  # преобразуем в число
+ADMIN_ID = int(os.getenv("ADMIN_ID"), "480145722"))  # преобразуем в число
 
 # Проверка: если токен не загрузился
 if not TOKEN or not ADMIN_ID:
